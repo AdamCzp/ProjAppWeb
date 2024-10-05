@@ -1,0 +1,59 @@
+body{
+    background-color: floralwhite;
+    font-family: "Montserrat", sans-serif;
+}
+.tytuly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.tytul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nava{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.Tytularna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 40vh;
+}
+.tytultekst{
+    text-align: center;
+}
+.header{
+    text-align: center;
+
+}
+.H2{
+    display: flex;
+    width: 100vw;
+    text-align: left;
+}
+.tekstdoh2{
+    display: flex;
+    text-align: left;
+    height: 35vh;
+
+}
+.kontakt{
+    display: flex;
+    width: 100vw;
+    background: hotpink;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+}
