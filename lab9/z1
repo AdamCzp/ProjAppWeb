@@ -1,0 +1,115 @@
+# ProjAppWeb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="pl"/>
+    <meta name="Author" content="AC 229">
+    <link rel="stylesheet" href="css1.css">
+    <title>Filmy oscarowe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="conteiner">
+    <header class="header">
+        <h1>Filmy Oscarowe ostatnich lat</h1>
+
+    </header>
+    <nav class="nava">
+        <ul class="Tytularna">
+            <li class="tytuly">
+                <div class="tytultekst">Oppenheimer</div>
+                    <a href="Oppenheime.html">
+                        <img src="z1.jpg" alt="Obraz 1">
+                    </a>
+            </li>
+            <li class="tytuly">
+                    <div class="tytultekst">Wszystko wszędzie naraz</div>
+                    <a href="Wszystko wszędzie naraz.html">
+                        <img src="z2.jpg" alt="Obraz 2">
+                    </a>
+            </li>
+            <li class="tytuly">
+                    <div class="tytultekst">Coda</div>
+                    <a href="Coda.html">
+                        <img src="z3.jpg" alt="Obraz 3">
+                    </a>
+            </li>
+            <li class="tytuly">
+                    <div class="tytultekst">Nomadland</div>
+                    <a href="Nomadland.html">
+                        <img src="z4.jpg" alt="Obraz 6">
+                    </a>
+            </li>
+            <li class="tytuly">
+                    <div class="tytultekst">Nomadland</div>
+                    <a href="Parasite.html">
+                        <img src="z5.jpg" alt="Obraz 5">
+                    </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css
+body{
+    background-color: floralwhite;
+    font-family: "Montserrat", sans-serif;
+}
+.tytuly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.tytul{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nava{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.Tytularna{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 40vh;
+}
+.tytultekst{
+    text-align: center;
+}
+.header{
+    text-align: center;
+
+}
