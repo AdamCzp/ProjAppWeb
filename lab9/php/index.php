@@ -4,7 +4,6 @@
  * Wersja: v1.8
  * Autor: Adam Czaplicki (AC 229)
  * Grupa: 1
- * Data: [Podaj datę aktualizacji]
  */
 
 // Konfiguracja błędów – wyłączenie notatek i ostrzeżeń
